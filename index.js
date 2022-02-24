@@ -39,7 +39,7 @@ ipcMain.on('open-file-from-user', () => {
 
 // Renderer to Main and back to Renderer
 ipcMain.handle('hey-main-send-me-stuff', (event, args) => {
-  console.log(args); // hey, send me a message!
+  console.log(args); // hey, send me a message! (from renderer process)
 
   return 'There you go!';
 });
