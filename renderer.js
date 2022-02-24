@@ -24,5 +24,5 @@ getTwoWayMsg.addEventListener('click', async () => {
     'hey, send me a message!'
   );
 
-  console.log(messageFromMain);
+  console.log(messageFromMain); // There you go! (from main process)
 });
