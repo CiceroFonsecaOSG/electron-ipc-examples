@@ -1,0 +1,13 @@
+{
+  "name": "electron-ipc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Cicero Fonseca",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^17.1.0"
+  }
+}

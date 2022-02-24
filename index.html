@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" class="input-message">
+      <button class="send-message">Renderer to Main</button>
+    </div>
+    <div>
+      <input type="text" class="main-message">
+      <button class="get-message">Main to Renderer</button>
+    </div>
+    <div>
+      <input type="text" class="promise-output">
+      <button class="get-two-way-message">Renderer to Main and back</button>
+    </div>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
